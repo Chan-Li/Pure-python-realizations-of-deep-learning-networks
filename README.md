@@ -3,4 +3,4 @@ In this repository, I will display some realizations of deep learning frameworks
 ## Commonly-used datasets
 In order to keep the relative consistence among all the network architectures, I introduce three commonly-used datasets: MNIST dataset, Fashion-MNIST dataset and CIFAR-10 dataset, which will be utilized in training the following networks. Typically, these datasets are used to implement classification tasks.
 
-MNIST dataset, four ingredents are included: 60000 pictures and corresponding labels in training set, 10000 pictures and corresponding labels in testing set. The range of pixels is often scaled between (0,1). This dataset can be download from MNIST[http://yann.lecun.com/exdb/mnist/].
+[MNIST](http://yann.lecun.com/exdb/mnist/) dataset, four ingredents are included: 60000 pictures and corresponding labels in training set, 10000 pictures and corresponding labels in testing set. The range of pixels is often scaled between (0,1). Please first download this dataset, and then load this using [load_MNIST](https://github.com/Chan-Li/Pure-python-realizations-of-deep-learning-networks/blob/main/Datasets/load_MNIST).
