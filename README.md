@@ -16,7 +16,10 @@ print(np.shape(train_label))
 ```
 
 [CIFAR 10 and CIFAR 100 datasets](https://www.cs.toronto.edu/~kriz/cifar.html) contains natural images which are much more difficult to classify, including bird, cat, deer... and so on. In this dataset, there are 50000 training pictures along with training labels, and 10000 test pictures with corresponding labels.
-
+```python
+from Datasets import load_CIFAR as load
+train_data,train_label,test_data,test_label=load.data_generate('cifar-10-batches-py')
+```
 
 
 There are also other datasets, like [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist). But for simplicity, we use here only the MNIST and CIFAR-10 datasets.
