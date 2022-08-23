@@ -23,3 +23,6 @@ train_data,train_label,test_data,test_label=load.data_generate('cifar-10-batches
 
 
 There are also other datasets, like [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist). But for simplicity, we use here only the MNIST and CIFAR-10 datasets.
+
+## Supervised learning
+For supervised learning, we introduce, MLP (BP.ipynb), CNN (Lenet for MNIST and the other for CIFAR10), RNN..... The .ipynb files are shown for simplicity.
