@@ -26,3 +26,4 @@ There are also other datasets, like [Fashion-MNIST](https://www.kaggle.com/datas
 
 ## Supervised learning
 For supervised learning, we introduce, MLP (BP.ipynb), CNN (Lenet for MNIST and the other for CIFAR10), RNN..... The .ipynb files are shown for simplicity.
+To be updated...
